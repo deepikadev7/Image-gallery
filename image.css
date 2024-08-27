@@ -1,0 +1,57 @@
+*,::before,::after
+{
+    margin:0px;
+    box-sizing: border-box;
+    line-height: 1.5;
+   
+}
+.container
+{
+    display:grid;
+   width:60%;
+   height:60%;
+   margin: 20px auto;
+   
+    
+    grid-template-areas:
+        "i1 i1 i2"
+        "i1 i1 i3"
+        "i4 i5 i6"
+        ;
+      border:10px soild white;  
+}
+.i1 {
+    grid-area: i1;
+}
+
+.i2 {
+    grid-area: i2;
+}
+
+.i3 {
+    grid-area: i3;
+}
+
+.i4 {
+    grid-area: i4;
+}
+
+.i5 {
+    grid-area: i5;
+}
+
+.i6 {
+    grid-area: i6;
+}
+
+.i7 {
+    grid-area: i7;
+}
+
+
+ img {
+    width: 100%;
+    border:2px solid greenyellow;
+    height:100%;
+}
+
